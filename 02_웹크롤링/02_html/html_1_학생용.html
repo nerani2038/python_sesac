@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>용산캠1기</title>
+        <meta charset="utf-8"> <!-- 문서의 문자 인코딩을 명시하여 브라우저가 올바르게 해석할 수 있도록 하기 위함 (utf-8 : 거의 모든 언어의 문자 표현)-->
+        <link rel="stylesheet" href="html_1.css">
+    </head>
+    <body>
+        <img src="source_img.jpg">
+
+        <h1 id="first-heading">나의 첫 번째 웹사이트에 오신걸 환영합니다.</h1>
+        <h2>잘 지내보아요.</h2>
+
+        <hr>
+
+        <p>
+            <i class="and-operator">하이퍼 텍스트 마크업 언어</i>(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 
+            하이퍼본문표식달기언어)는 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다. 
+            또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 
+            인용과 <span>그 밖의 항목으로</span> 구조적 문서를 만들 수 있는 방법을 제공한다.
+        </p>
+        <p>
+            그리고 <b>이미지와</b> 객체를 내장하여 대화형 양식을 생성하는 데 사용될 수 있다. 
+            HTML은 웹 페이지 콘텐츠 <em>안의 꺾쇠 괄호에</em> 둘러싸인 "태그"로 되어있는 HTML 요소 형태로 작성한다. 
+            HTML은 웹 브라우저와 같은 HTML 처리 장치의 행동에 영향을 주는 자바스크립트, 
+            본문과 그 밖의 항목의 외관과 배치를 정의하는 CSS 같은 스크립트를 포함하거나 불러올 수 있다.
+        </p>
+
+        <hr>
+
+        <a href="https://ko.wikipedia.org/wiki/HTML" target="_blank">html에 대해서 한 번 알아볼까요?</a>
+
+        <p></p>
+
+        <div id="ul-area">
+            <span class="ul-title"><b>여기는 ul태그 블럭입니다.</b></span>
+            <ul>
+                <li class="li-element first-li"><b>첫 번째</b> 항목입니다.</li>
+                <li class="li-element second-li">두 번째 항목입니다.</li>
+                <li class="li-element-test">세 번째 항목입니다.</li>
+                <li class="li-element">네 번째 항목입니다.</li>
+            </ul>
+        </div>
+
+        <div id="table-area">
+            <table class="firts-table" border="1">
+                <thead>
+                    <tr>
+                        <td>제목1</td>
+                        <td>제목2</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">동물</td>
+                        <td>개</td>
+                    </tr>
+                    <tr>
+                        <td>고양이</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p></p>
+
+        <div id="form-area">
+            <input type="text" value="값을 입력해주세요"><br/>
+            <textarea cols="50" rows="5">50자씩 5줄 작성 가능합니다.</textarea>
+            <select>
+                <option value="1">첫 번째</option>
+                <option value="2">두 번째</option>
+                <option value="3">세 번째</option>
+            </select>
+            <input type="submit" value="전송"><br/>
+            <input type="button" value="버튼">
+        </div>
+    </body>
+</html>
